@@ -1,0 +1,14 @@
+# Ignorar dependências
+node_modules
+**/node_modules
+
+# Ignorar dados do MySQL
+mysql
+**/mysql
+
+# Ignorar logs
+*.log
+
+# Ignorar cache
+.cache
+.tmp
