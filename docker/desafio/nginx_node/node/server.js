@@ -2,9 +2,9 @@ const express = require("express");
 const mysql = require("mysql");
 const app = express();
 const port = 3000;
-const ENV = process.env.NODE_ENV || "development";
+
 const config = {
-  host: ENV === "development" ? "localhost" : "db",
+  host: "db",
   user: "user",
   password: "password",
   database: "nodedb",
